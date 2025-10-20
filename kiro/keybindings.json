@@ -46,7 +46,7 @@
         "key": "shift+cmd+l",
         "command": "kiroAgent.focusContinueInput"
     },
-    // toggle (close) chat. i don't using this for opening chat since it doesn't focus to text input
+    // toggle (close) chat. not using this command for opening chat since it doesn't focus to text input
     {
         "key": "cmd+l",
         "command": "workbench.action.toggleAuxiliaryBar",
