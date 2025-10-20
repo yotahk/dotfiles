@@ -50,7 +50,7 @@
     {
         "key": "cmd+l",
         "command": "workbench.action.toggleAuxiliaryBar",
-        "when": "auxiliaryBarVisible"
+        "when": "auxiliaryBarVisible && !editorFocus"
     },
     // TODO: figure out how to close each chats
 ]
