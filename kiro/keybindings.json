@@ -31,12 +31,12 @@
         "command": "aws.amazonq.invokeInlineCompletion",
         "when": "aws.codewhisperer.connected && editorTextFocus"
     },
-    // edit inline
+    // inline edit
     {
         "key": "cmd+k",
         "command": "kiroAgent.inlineChat.start"
     },
-    // open chat. focus on text input
+    // open chat. focuses on text input
     {
         "key": "cmd+l",
         "command": "kiroAgent.focusContinueInputWithoutClear"
