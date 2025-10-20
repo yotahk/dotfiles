@@ -36,20 +36,21 @@
         "key": "cmd+k",
         "command": "kiroAgent.inlineChat.start"
     },
-    // open chat
-    // {
-    //     "key": "cmd+l",
-    //     "command": "kiroAgent.focusContinueInputWithoutClear"
-    // },
+    // open chat. focus on text input
+    {
+        "key": "cmd+l",
+        "command": "kiroAgent.focusContinueInputWithoutClear"
+    },
     // new chat
     {
         "key": "shift+cmd+l",
         "command": "kiroAgent.focusContinueInput"
     },
-    // toggle chat
+    // toggle (close) chat. i don't using this for opening chat since it doesn't focus to text input
     {
         "key": "cmd+l",
-        "command": "workbench.action.toggleAuxiliaryBar"
+        "command": "workbench.action.toggleAuxiliaryBar",
+        "when": "auxiliaryBarVisible"
     },
-    // TODO: figure out how to close chat
+    // TODO: figure out how to close each chats
 ]
