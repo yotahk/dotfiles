@@ -46,11 +46,26 @@
         "key": "shift+cmd+l",
         "command": "kiroAgent.focusContinueInput"
     },
-    // toggle (close) chat. not using this command for opening chat since it doesn't focus to text input
+    // toggle (close) chat. not using this command for opening chat since it doesn't focus to text input TODO: figure out how to close each chats
     {
         "key": "cmd+l",
         "command": "workbench.action.toggleAuxiliaryBar",
         "when": "auxiliaryBarVisible && !editorFocus"
     },
-    // TODO: figure out how to close each chats
+    // show Git
+    {
+        "key": "shift+cmd+g",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "workbench.view.explorer",
+        "when": "!explorerViewletVisible"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "workbench.action.closeSidebar",
+        "when": "explorerViewletVisible && sideBarVisible"
+    }
 ]
